@@ -38,6 +38,7 @@ nav li {
     justify-content: center;
     margin: auto;
     overflow: hidden;
+
 }
 .servicio{
     width: 100%;
@@ -254,5 +255,63 @@ h2 {
 }
 .galeria:hover .hover-galeria{
     transform: scale(1);
+}
+
+  
+.pie{
+    background-color: #E39FF6;
+}
+img{
+    width: 80px;
+    gap: 10px;
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E39ff6;
+}
+.seccion-info{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    background-color: #E39ff6;
+}
+.seccion-info div{
+    display: flex;
+    flex-direction: column;
+    background-color: #E39ff6;
+}
+div h5 {
+    color: #000000;;
+    padding: 15px 0 ;
+    font-size: 26px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    padding: 3px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+input{
+    background:none;
+    border: solid 2px #000 ;
+    padding: 2px 20px;
+}
+button{
+    padding: 2px 5px;
+    background: #E39FF6;
+    font-size: 15px;
+}
+.Derechos-footer{
+display: flex;
+justify-content: space-between;
+padding: 30px;
+background: #d080e6;
+color: #E39ff6;
 }
 
